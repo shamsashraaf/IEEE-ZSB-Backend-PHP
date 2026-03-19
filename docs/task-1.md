@@ -71,6 +71,11 @@ if($read){                //if read = true .. yep php understand that
 echo $message;
 ?>
 ```
+there is another short way called ( **Ternary shorthand** )
+Ex
+```php
+echo $read? "You have read $name":"You have NOT read $name";
+```
 ---
 ## Arrays
 
