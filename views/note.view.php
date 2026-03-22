@@ -11,7 +11,7 @@
         </p>
 
 
-        <p> <?= $note['body'] ?></p>
+         <?= htmlspecialchars($note['body']) ?>
 
     </div>
 </main>
